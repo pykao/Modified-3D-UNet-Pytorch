@@ -194,16 +194,3 @@ class Modified3DUNet(nn.Module):
 		#out = out.view(-1, self.n_classes)
 		out = self.softmax(out)
 		return out, seg_layer
-
-model = Modified3DUNet(4, 5, 16)
-
-model.cuda()
-
-print model
-
-input = Variable(torch.randn(2, 4, 128, 128, 128)).cuda()
-
-outputs = model(input)
-
-print outputs[1]
-print outputs[0]
