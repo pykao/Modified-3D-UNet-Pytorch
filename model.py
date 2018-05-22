@@ -1,8 +1,5 @@
 import torch.nn as nn
-from torch.autograd import Variable
 import torch
-
-
 
 class Modified3DUNet(nn.Module):
 	def __init__(self, in_channels, n_classes, base_n_filter = 8):
