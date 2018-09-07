@@ -3,4 +3,4 @@ This repository implements the modified 3D UNet architecture in pytorch from [Br
 
 The model works but you have to work on data loading part and training part.
 
-Please refer to our [BraTS2018-tumor-segmentation](https://github.com/pykao/BraTS2018-tumor-segmentation) repo if you would like to use it. 
+Please refer to our [BraTS2018-tumor-segmentation](https://github.com/pykao/BraTS2018-tumor-segmentation) repo if you would like to use this model on brain tumor segmentation. 
